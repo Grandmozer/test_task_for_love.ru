@@ -1,0 +1,28 @@
+.badge-photo {
+  display: flex;
+  align-items: center;
+  background: @badge-bg;
+  color: @white;
+  border-radius: 6.148px;
+  padding: 3.074px 6px;
+  gap: 4.611px;
+  font-size: 19.921px;
+  font-weight: 700;
+
+  svg {
+    width: 21.519px;
+    height: 19.981px;
+  }
+
+  @media screen and  @mobile {
+    border-radius: 4px;
+    padding: 2px 4px;
+    gap: 3px;
+    font-size: 13px;
+
+    svg {
+      width: 14px;
+      height: 13px;
+    }
+  }
+}

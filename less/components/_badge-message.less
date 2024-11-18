@@ -1,0 +1,26 @@
+.badge-message {
+  position: relative;
+
+  p {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-size: 28px;
+
+    @media screen and @mobile {
+      top: -1px;
+      left: 4px;
+      font-size: 27.58px;
+    }
+  }
+
+  svg {
+    width: 50px;
+    height: 52px;
+
+    @media screen and @mobile {
+      width: 44px;
+      height: 46px;
+    }
+  }
+}

@@ -1,0 +1,108 @@
+.user-card {
+  width: 247px;
+  height: max-content;
+  position: relative;
+  display: grid;
+  overflow: hidden;
+  border: 1px solid @light-gray;
+  border-radius: 26px;
+  cursor: pointer;
+
+  @media screen and  @mobile {
+    width: 160px;
+    height: 214px;
+    border-radius: 17px;
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: @black;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      .user-card__background {
+        opacity: 0.1;
+      }
+    }
+  }
+
+  &:active {
+    .user-card__background {
+      opacity: 0.2;
+    }
+  }
+
+  &__top {
+    height: calc(340px - 86px);
+    position: relative;
+    z-index: 1;
+
+    @media screen and  @mobile {
+      height: calc(214px - 56px);
+    }
+  }
+
+  &__badges {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    top: 16px;
+    left: 12px;
+    right: 19px;
+    bottom: 18px;
+
+    @media screen and  @mobile {
+      top: 12px;
+      left: 12px;
+      right: 12px;
+      bottom: 8px;
+    }
+
+    &-top {
+
+    }
+
+    &-bottom {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__info {
+    height: 70px;
+    padding: 16px 18px 0 18px;
+    background: @white;
+    z-index: 2;
+
+    @media screen and  @mobile {
+      height: 44px;
+      padding: 12px;
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__location {
+    padding-top: 5px;
+    font-size: 16px;
+    color: @gray;
+
+    @media screen and  @mobile {
+      padding-top: 0;
+      font-size: 14px;
+    }
+  }
+}

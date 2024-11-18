@@ -1,0 +1,102 @@
+.user-modal {
+
+  &__block {
+    width: 700px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    background: @white;
+    overflow: hidden;
+    border-radius: 17px;
+
+    @media screen and  @mobile {
+      width: 350px;
+      height: 609px;
+      flex-direction: column;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    @media screen and  @mobile {
+      top: 17px;
+      right: 17px;
+
+      svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+
+  &__image {
+    width: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and  @mobile {
+      width: 100%;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 76px 24px 52px 30px;
+
+    @media screen and  @mobile {
+      flex-direction: row;
+      padding: 24px 28px 28px 28px;
+      background: @white;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+  &__about-user {
+    display: grid;
+    gap: 8px;
+  }
+
+  &__town {
+    color: @gray;
+    font-size: 24px;
+
+    @media screen and  @mobile {
+      font-size: 16px;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+    @media screen and  @mobile {
+      gap: 12px;
+    }
+  }
+
+  &__like,
+  &__dislike {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  .user-modal__like.active + .user-modal__dislike,
+  .user-modal__dislike.active + .user-modal__like {
+    opacity: 0.5;
+  }
+}

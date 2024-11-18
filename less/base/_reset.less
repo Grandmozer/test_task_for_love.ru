@@ -1,0 +1,112 @@
+/* Typography reset
+============================================= */
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+p, li, figcaption {
+  text-wrap: pretty;
+}
+
+body, h1, h2, h3, h4, h5, h6, p,
+ul, ol, dl, dd, figure, blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+/* List reset
+============================================= */
+ul[role='list'],
+ol[role='list'],
+li {
+  list-style: none;
+  padding: 0;
+}
+
+/* Anchor reset
+============================================= */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Media elements reset
+============================================= */
+img, picture, svg,
+audio, canvas, iframe, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  vertical-align: top;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+svg,
+svg path,
+svg circle,
+svg polygon,
+svg rect,
+svg line {
+  shape-rendering: geometricprecision;
+}
+
+/* Form elements reset
+============================================= */
+button {
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+
+/* Dialog reset
+============================================= */
+dialog {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+dialog[open] {
+  display: block;
+}
+
+dialog::backdrop {
+  background: @dropdown;
+}
+
+/* Focus styles
+============================================= */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Handle lists */
+ul, ol, dl {
+  page-break-before: avoid;
+}
+
+/* Links and References */
+a {
+  text-decoration: underline;
+  word-wrap: break-word;
+}

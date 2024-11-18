@@ -1,0 +1,168 @@
+[
+  {
+    "id": "1",
+    "user_name": "Анна",
+    "city": "Санкт-Петербург",
+    "age": "24",
+    "online": true,
+    "photo": [
+      "/img/blonde-woman-sitting-in-field.webp",
+      "/img/cf6b547e9431594ef02c052a969f8961.png"
+    ],
+    "distance": "150",
+    "message": "😊"
+  },
+  {
+    "id": "2",
+    "user_name": "Мария",
+    "city": "Москва",
+    "age": "29",
+    "online": false,
+    "photo": [
+      "/img/cf6b547e9431594ef02c052a969f8961.png"
+    ],
+    "distance": "80",
+    "message": "❤️"
+  },
+  {
+    "id": "3",
+    "user_name": "Елена",
+    "city": "Казань",
+    "age": "35",
+    "online": true,
+    "photo": [
+      "/img/image.webp",
+      "/img/image.webp"
+    ],
+    "distance": "220",
+    "message": ""
+  },
+  {
+    "id": "4",
+    "user_name": "Наталья",
+    "city": "Новосибирск",
+    "age": "42",
+    "online": false,
+    "photo": [
+      "/img/image-1.webp"
+    ],
+    "distance": "600",
+    "message": "🌈"
+  },
+  {
+    "id": "5",
+    "user_name": "Светлана",
+    "city": "Екатеринбург",
+    "age": "31",
+    "online": false,
+    "photo": [
+      "/img/image-2.webp",
+      "/img/image-2.webp"
+    ],
+    "distance": "400",
+    "message": ""
+  },
+  {
+    "id": "6",
+    "user_name": "Екатерина",
+    "city": "Белокуриха",
+    "age": "58",
+    "online": true,
+    "photo": [
+      "/img/image-3.webp",
+      "/img/image-3.webp"
+    ],
+    "distance": "100",
+    "message": ""
+  },
+  {
+    "id": "7",
+    "user_name": "Юлия",
+    "city": "Владивосток",
+    "age": "21",
+    "online": true,
+    "photo": [
+      "/img/image-4.webp",
+      "/img/image-4.webp"
+    ],
+    "distance": "500",
+    "message": ""
+  },
+  {
+    "id": "8",
+    "user_name": "Мария",
+    "city": "Екатеринбург",
+    "age": "58",
+    "online": true,
+    "photo": [
+      "/img/image-5.webp",
+      "/img/image-5.webp",
+      "/img/image-5.webp"
+    ],
+    "distance": "10",
+    "message": "\uD83D\uDE80"
+  },
+  {
+    "id": "9",
+    "user_name": "Милана",
+    "city": "Москва",
+    "age": "18",
+    "online": false,
+    "photo": [
+      "/img/image-6.webp",
+      "/img/image-6.webp",
+      "/img/image-6.webp",
+      "/img/image-6.webp"
+    ],
+    "distance": "5",
+    "message": "\uD83D\uDE80"
+  },
+  {
+    "id": "10",
+    "user_name": "Милана",
+    "city": "Санкт-Петербург",
+    "age": "38",
+    "online": false,
+    "photo": [
+      "/img/portrait-of-young-beautiful-smiling-girl-in-summer-hipster-jacket-and-jeans-model-taking-selfie-on-smartphone_158538-1726.webp"
+    ],
+    "distance": "500",
+    "message": ""
+  },
+  {
+    "id": "11",
+    "user_name": "Стася",
+    "city": "Енисей",
+    "age": "24",
+    "online": true,
+    "photo": [
+      "/img/Rectangle 2716.webp"
+    ],
+    "distance": "500",
+    "message": "\uD83C\uDF08"
+  },
+  {
+    "id": "12",
+    "user_name": "Дарья",
+    "city": "Ханты",
+    "age": "100",
+    "online": false,
+    "photo": [
+      "/img/v2_0438958.webp"
+    ],
+    "distance": "100",
+    "message": ""
+  },
+  {
+    "id": "13",
+    "user_name": "Татьяна",
+    "city": "Новосибирск",
+    "age": "30",
+    "online": true,
+    "photo": [
+      "/img/v2_0526622.webp"
+    ],
+    "distance": "100",
+    "message": ""
+  }
+]
