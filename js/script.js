@@ -79,10 +79,10 @@ function unlockScreen() {
 // Закрытие модальных окон по backdrop
 function addModalCloseHandler(modal) {
     const closeButton = modal.querySelector('.user-modal__close');
-    closeButton.addEventListener('click', () => {
-        modal.close();
-    })
     modal.addEventListener('click', (event) => {
+        closeButton.addEventListener('click', () => {
+        modal.close();
+        })
         unlockScreen();
         const rect = modal.getBoundingClientRect();
         const isInDialog = (
